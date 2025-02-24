@@ -95,7 +95,7 @@ The IPAM Lite application is configured to connect to MongoDB running on `localh
 
 ### Update Connection String
 
-1. Open `/home/altanc/gitprojects/ipam-lite/backend/server.js`.
+1. Open `/home/username/gitprojects/ipam-lite/backend/server.js`.
 2. Update the `mongoose.connect` line with your MongoDB connection string:
     ```javascript
     mongoose.connect('mongodb://ipamUser:password@localhost:27017/ipam', { useNewUrlParser: true, useUnifiedTopology: true });
